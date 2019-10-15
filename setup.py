@@ -22,6 +22,7 @@ setup(
         'gunicorn',
         'torch',
         'torchvision',
+        's3fs',
         'boto3'
     ],
 
