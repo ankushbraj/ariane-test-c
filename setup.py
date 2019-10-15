@@ -21,7 +21,7 @@ setup(
         'gevent',
         'gunicorn',
         'torch',
-        'torchvison',
+        'torchvision',
         'boto3'
     ],
 
