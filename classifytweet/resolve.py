@@ -1,7 +1,7 @@
 import os
 import types
 
-import classifytweet.data as location
+import data as location
 
 
 class resource(object):
