@@ -20,7 +20,7 @@ setup(
         'flask',
         'gevent',
         'gunicorn',
-        'torch torchvision'
+        'torch torchvision',
         'boto3'
     ],
 
