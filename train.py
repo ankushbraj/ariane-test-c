@@ -39,7 +39,8 @@ def entry_point():
 
 #link s3 bucket here, put it in the function
 #dataframe = pd.read_csv(paths.input(channel='training', filename="training.1600000.processed.noemoticon.csv"), error_bad_lines=False, encoding="ISO-8859-1", header=None).iloc[:, [0, 4, 5]].sample(frac=1).reset_index(drop=True)
-    datasource = "classifytweet/data/"
+    #datasource = "classifytweet/data/"
+    datasource =  paths.input(channel='training')
     model_name = "modelName"
     epoch_step_1 = 2
     #epoch_step_2 = 3
